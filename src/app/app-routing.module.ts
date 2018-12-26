@@ -16,7 +16,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 imports: [
     RouterModule.forRoot(
         appRoutes,
-        {enableTracing:true}// affiche les tracing dans le console
+        {enableTracing:false}// affiche les tracing dans le console
     )
 ],
 exports: [RouterModule]
